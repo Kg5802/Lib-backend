@@ -15,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "${frontend.url}")
 public class UserController {
 
     @Autowired
